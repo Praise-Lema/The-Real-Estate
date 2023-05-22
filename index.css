@@ -1,0 +1,12 @@
+
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: -5px 5px 3px rgba(172, 133, 131, 0.877);
+    font-weight: 600;
+}
