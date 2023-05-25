@@ -86,3 +86,25 @@ transition:transform .25s ;
         
 }
 
+/*the style of header of our team*/
+.meet_team{
+    font-size:3.5rem;
+letter-spacing:3px;
+margin-right:-3px;
+margin-bottom:5rem;
+text-align:center;
+color:black;
+position:relative;
+}
+.meet_team::after{
+    content:"";
+    width:10rem;
+    height:0.2rem;
+    background-color:black;
+    position: absolute;
+    bottom:-2rem;
+    left:50%;
+    transform:translatex(-50%);
+    border-radius: 2rem;
+}
+
