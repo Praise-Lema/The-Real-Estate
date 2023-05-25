@@ -44,4 +44,9 @@ transition:transform .25s ;
     /* hii inasaidia ku picha i hoveke ndani ya border isitoke nje ya border .this is the only line of code used to do hat specificly and u have to make sure it is in the class of the image to be styled noton the general div*/
     overflow:hidden;
 }
+.contact{
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-size: 3.5em;
+        
+}
 
