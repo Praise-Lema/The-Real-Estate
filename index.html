@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The-Real-Estate</title>
-    <link rel="stylesheet" href="my-bootstrap/bootstrap-5.3.0-alpha3-dist/file/css/bootstrap.css">
+    <link rel="stylesheet" href="./my-bootstrap/bootstrap-5.3.0-alpha3-dist/file/css/bootstrap.css">
     <link rel="stylesheet" href="/fonts/css/all.css">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -17,31 +17,44 @@
                <img src="house-icon.png" alt="" width="120px" height="50px">
                 <a href="#" class="navbar-brand px-3">Real-Estate</a>
              </div>
-           
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
 
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item px-4">
                         <a href="#" class="nav-link">Home</a>
                     </li>
-                    <li class="nav-item px-4">
-                        <a href="#" class="nav-link">About Us</a>
+                    <li class="nav-item px-4 dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                        <ul class="dropdown-menu">
+                            <li ><a href="#our_team_section" class="dropdown-item">Our Team</a></li>
+                            <li><a href="#location" class="dropdown-item">location</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-4">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Market trends</a></li>
+                            <li><a href="#" class="dropdown-item">Mortgage</a></li>
+                            <li><a href="#" class="dropdown-item">Property search</a></li>
+                            <li><a href="#" class="dropdown-item">Property valuation</a></li>
+                            <li><a href="#" class="dropdown-item">Agent and Broker service</a></li>
+                            <li><a href="#" class="dropdown-item">Relocation service</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item px-4">
-                        <a href="#" class="nav-link">Our Services</a>
+                        <a href="#" class="nav-link">Testimonials</a>
                     </li>
                     <li class="nav-item px-4">
-                        <a href="#" class="nav-link">Contacts</a>
+                        <a href="#" class=" btn btn-light text-black px-3">Login</a>  
                     </li>
                     <li class="nav-item px-4">
-                        <a href="" class=" btn btn-light text-black px-3">Login</a>  
+                        <a href="#" class=" btn btn-light text-black px-3">Register</a>  
                     </li>
                     <li class="nav-item px-4">
-                        <a href="" class="nav-link"><span class="fa fa-search text-white"></span></a>  
+                        <a href="#" class="nav-link"><span class="fa fa-search text-white"></span></a>  
                     </li>
                 </ul>
             </div>
@@ -76,14 +89,14 @@
 
 
                 <!--About us section(makungu--our team(Gift----<location and cotanct form>))-->
-
-
+                   
 
 
                 <!--Footer(kelvin)-->
 
 
 
-    <script src="my-bootstrap/bootstrap-5.3.0-alpha3-dist/file/js/bootstrap.js"></script>
+    <script src="./my-bootstrap/bootstrap-5.3.0-alpha3-dist/file/js/bootstrap.js"></script>
+    <script src="./my-bootstrap/bootstrap-5.3.0-alpha3-dist/file/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
