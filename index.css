@@ -10,3 +10,101 @@
     text-shadow: -5px 5px 3px rgba(172, 133, 131, 0.877);
     font-weight: 600;
 }
+
+.main{
+    
+    background-image: url(./images/img1.jpg);
+    background-size: cover;
+    width: 90%;
+    margin-left: 90px;
+    height: 630px;
+}
+
+ 
+.discover{
+    display: flex;
+    margin-left: 400px;
+       
+}
+.img{
+    width: 120px;
+    border-radius: 100%;
+    margin-top: 530px;
+
+}
+#img6{
+    margin-left: 50px;
+    
+    
+}
+#image8{
+    margin-left: 60px;
+    
+    
+}
+.sub{
+    text-align: center;
+}
+
+
+.services{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.9em;
+    font-style: italic;
+}
+.shadow{ 
+    /* hii ya kueka blur effect kwenye card  */
+    box-shadow: 5px 5px 2px 6px rgba(0,0,0,1);
+}
+.cardssection{
+    width: 100%;
+    display: flex;
+    /* na lazima uwe ume tumia kwanza display flex */
+    /* hio apo chini imetumika kuzisection /kuwrap izo cards into a group of three three  */
+    flex-wrap: wrap;
+     /*hio gap ndo inasaidia kuforce/kuongeza space ili zikae in three three u cant use wrap without gap   */
+    gap: 10px;
+    justify-content: center;
+    
+
+
+}
+/* hii class apo chini ya bootstrap lzm uichukue yote km ilivyo ukiona tu icho ki hyphen ujue nikitu kimoja ila ikiwa ina space ni vitu viwili tofauti */
+.card-img-top:hover{
+    /* u should hover the class ofthe image ut self and not the entire card div alaf unaeka scale ni lazima na io value ya scale pia nmesaau kazi yake */
+transform: scale(1.1);
+/* apo chini una andka kwanza the property to be transitioned in this case ni transform alf unekea mda for the transition to take place  */
+transition:transform .25s ;
+}
+.image{
+    /* hii inasaidia ku picha i hoveke ndani ya border isitoke nje ya border .this is the only line of code used to do hat specificly and u have to make sure it is in the class of the image to be styled noton the general div*/
+    overflow:hidden;
+}
+.contact{
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-size: 3.5em;
+        
+}
+
+/*the style of header of our team*/
+.meet_team{
+    font-size:3.5rem;
+letter-spacing:3px;
+margin-right:-3px;
+margin-bottom:5rem;
+text-align:center;
+color:black;
+position:relative;
+}
+.meet_team::after{
+    content:"";
+    width:10rem;
+    height:0.2rem;
+    background-color:black;
+    position: absolute;
+    bottom:-2rem;
+    left:50%;
+    transform:translatex(-50%);
+    border-radius: 2rem;
+}
+
