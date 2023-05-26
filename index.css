@@ -97,7 +97,6 @@ color:black;
 position:relative;
 }
 .meet_team::after{
-    content:"";
     width:10rem;
     height:0.2rem;
     background-color:black;
